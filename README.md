@@ -1,8 +1,12 @@
+# ChatGPT Token Counter
+
+<img width="1614" height="1049" alt="Screenshot 2025-10-25 at 10 20 01 PM" src="https://github.com/user-attachments/assets/e768559a-df97-4660-9b1c-e3d68b5d07dd" />
+
 Install the extension on the [Chrome Web Store](https://chromewebstore.google.com/detail/dbcphbbopbnjahdgdicdbmhjngaoddni?utm_source=item-share-cb) today!
 
-# Local Setup
+## Local Setup
 
-## Installation
+### Installation
 
 1. `git clone https://github.com/matts421/llm-chrome-extension.git`
 2. Go to `chrome://extensions/` in Chrome browser
@@ -11,10 +15,7 @@ Install the extension on the [Chrome Web Store](https://chromewebstore.google.co
 5. Ensure the extension is enabled, pin it for easier use, and navigate to `chatgpt.com` and chat to view the token count rise.
 6. Open dev console in Chrome to view debugging info
 
-<img width="1614" height="1049" alt="Screenshot 2025-10-25 at 10 20 01 PM" src="https://github.com/user-attachments/assets/e768559a-df97-4660-9b1c-e3d68b5d07dd" />
-
-
-## Updates
+### Updates
 
 1. Go to `chrome://extensions/`
 2. In the top-left, click "Update"
