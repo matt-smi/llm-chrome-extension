@@ -1,4 +1,8 @@
-# Setup
+Install the extension on the [Chrome Web Store](https://chromewebstore.google.com/detail/dbcphbbopbnjahdgdicdbmhjngaoddni?utm_source=item-share-cb) today!
+
+# Local Setup
+
+## Installation
 
 1. `git clone https://github.com/matts421/llm-chrome-extension.git`
 2. Go to `chrome://extensions/` in Chrome browser
@@ -10,7 +14,7 @@
 <img width="1614" height="1049" alt="Screenshot 2025-10-25 at 10 20 01 PM" src="https://github.com/user-attachments/assets/e768559a-df97-4660-9b1c-e3d68b5d07dd" />
 
 
-# To Update
+## Updates
 
 1. Go to `chrome://extensions/`
 2. In the top-left, click "Update"
