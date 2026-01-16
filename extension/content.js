@@ -140,6 +140,6 @@ async function injectPanel() {
   updateImage();
 }
 
-if (document.body) {
-  injectPanel();
-} else window.addEventListener("DOMContentLoaded", injectPanel);
+// if (document.body) {
+//   injectPanel();
+// } else window.addEventListener("DOMContentLoaded", injectPanel);
