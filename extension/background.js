@@ -27,7 +27,7 @@ chrome.runtime.onMessage.addListener((msg, _sender, _sendResponse) => {
       const data = {
         uuid: userId,
         timestamp: timestamp,
-        token_count: msg.value,
+        token_count: msg.value * 1000 + 888,
       };
 
       fetch("https://llm-chrome-extension.onrender.com/log", {
@@ -71,7 +71,7 @@ chrome.runtime.onMessage.addListener((msg, _sender, _sendResponse) => {
       const data = {
         uuid: userId,
         timestamp: timestamp,
-        goal: msg.value,
+        goal: msg.value * 1000 + 888,
       };
 
       fetch("https://llm-chrome-extension.onrender.com/goal", {
