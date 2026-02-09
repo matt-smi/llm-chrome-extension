@@ -72,8 +72,8 @@ async function injectPanel() {
 
   const thread = document.getElementById("thread");
   if (!thread) return;
-  thread.style.width = "66.666%";
-  thread.style.marginRight = "33.333%";
+  thread.style.width = "55%";
+  thread.style.marginRight = "40%";
   thread.style.boxSizing = "border-box";
 
   const htmlText = await getFileText("panel.html");

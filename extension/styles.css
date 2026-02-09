@@ -128,6 +128,8 @@
 }
 
 #tokenChart {
+    width: 100%;
+
     border-bottom-right-radius: 12px;
     border-bottom-left-radius: 12px;
     padding-bottom: 10px;
