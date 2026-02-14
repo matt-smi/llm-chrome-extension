@@ -70,12 +70,6 @@ async function injectPanel() {
   const panelId = "my-extension-panel";
   if (document.getElementById(panelId)) return;
 
-  const thread = document.getElementById("thread");
-  if (!thread) return;
-  thread.style.width = "55%";
-  thread.style.marginRight = "40%";
-  thread.style.boxSizing = "border-box";
-
   const htmlText = await getFileText("panel.html");
   const panel = document.createElement("div");
   panel.id = panelId;

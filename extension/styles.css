@@ -122,6 +122,12 @@
     }
 }
 
+#thread {
+    width: 60%;
+    margin-right: 40%;
+    box-sizing: border-box;
+}
+
 #tokenBox {
     border-radius: 12px;
     background-color: #f2f2f2;
